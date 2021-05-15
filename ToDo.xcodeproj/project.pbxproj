@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3F45C2264F3C8F006B4E14 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F45C1264F3C8F006B4E14 /* HideKeyboardExtension.swift */; };
+		0C3F45C4264F3FE1006B4E14 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F45C3264F3FE1006B4E14 /* BackgroundImageView.swift */; };
+		0C3F45C6264F40D3006B4E14 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F45C5264F40D3006B4E14 /* NewTaskItemView.swift */; };
+		0C3F45C8264F4652006B4E14 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F45C7264F4652006B4E14 /* BlankView.swift */; };
+		0C84E9CD264F284000F25A1D /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C84E9CA264F283F00F25A1D /* sound-rise.mp3 */; };
+		0C84E9CE264F284000F25A1D /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C84E9CB264F283F00F25A1D /* sound-tap.mp3 */; };
+		0C84E9CF264F284000F25A1D /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C84E9CC264F284000F25A1D /* sound-ding.mp3 */; };
+		0C84E9DB264F319000F25A1D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84E9DA264F319000F25A1D /* Constant.swift */; };
 		0CCC8406264F1DE70071030A /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC8405264F1DE70071030A /* ToDoApp.swift */; };
 		0CCC8408264F1DE70071030A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC8407264F1DE70071030A /* ContentView.swift */; };
 		0CCC840A264F1DE80071030A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC8409264F1DE80071030A /* Assets.xcassets */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3F45C1264F3C8F006B4E14 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		0C3F45C3264F3FE1006B4E14 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		0C3F45C5264F40D3006B4E14 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		0C3F45C7264F4652006B4E14 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		0C84E9CA264F283F00F25A1D /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		0C84E9CB264F283F00F25A1D /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		0C84E9CC264F284000F25A1D /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		0C84E9DA264F319000F25A1D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0CCC8402264F1DE70071030A /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCC8405264F1DE70071030A /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		0CCC8407264F1DE70071030A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +53,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C84E9D0264F284700F25A1D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0C84E9CC264F284000F25A1D /* sound-ding.mp3 */,
+				0C84E9CA264F283F00F25A1D /* sound-rise.mp3 */,
+				0C84E9CB264F283F00F25A1D /* sound-tap.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0C84E9D1264F286700F25A1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC8407264F1DE70071030A /* ContentView.swift */,
+				0C3F45C5264F40D3006B4E14 /* NewTaskItemView.swift */,
+				0C3F45C3264F3FE1006B4E14 /* BackgroundImageView.swift */,
+				0C3F45C7264F4652006B4E14 /* BlankView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C84E9D2264F287200F25A1D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F45C1264F3C8F006B4E14 /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0C84E9D3264F287900F25A1D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0C84E9DA264F319000F25A1D /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0C84E9D4264F288100F25A1D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0C84E9D5264F289E00F25A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC840E264F1DE80071030A /* Persistence.swift */,
+				0CCC8410264F1DE80071030A /* ToDo.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0CCC83F9264F1DE70071030A = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +126,14 @@
 			isa = PBXGroup;
 			children = (
 				0CCC8405264F1DE70071030A /* ToDoApp.swift */,
-				0CCC8407264F1DE70071030A /* ContentView.swift */,
+				0C84E9D1264F286700F25A1D /* View */,
+				0C84E9D5264F289E00F25A1D /* Model */,
+				0C84E9D4264F288100F25A1D /* Style */,
+				0C84E9D3264F287900F25A1D /* Util */,
+				0C84E9D2264F287200F25A1D /* Extension */,
+				0C84E9D0264F284700F25A1D /* Sounds */,
 				0CCC8409264F1DE80071030A /* Assets.xcassets */,
-				0CCC840E264F1DE80071030A /* Persistence.swift */,
 				0CCC8413264F1DE80071030A /* Info.plist */,
-				0CCC8410264F1DE80071030A /* ToDo.xcdatamodeld */,
 				0CCC840B264F1DE80071030A /* Preview Content */,
 			);
 			path = ToDo;
@@ -132,7 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C84E9CF264F284000F25A1D /* sound-ding.mp3 in Resources */,
+				0C84E9CD264F284000F25A1D /* sound-rise.mp3 in Resources */,
 				0CCC840D264F1DE80071030A /* Preview Assets.xcassets in Resources */,
+				0C84E9CE264F284000F25A1D /* sound-tap.mp3 in Resources */,
 				0CCC840A264F1DE80071030A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +220,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CCC840F264F1DE80071030A /* Persistence.swift in Sources */,
+				0C3F45C4264F3FE1006B4E14 /* BackgroundImageView.swift in Sources */,
 				0CCC8408264F1DE70071030A /* ContentView.swift in Sources */,
+				0C3F45C2264F3C8F006B4E14 /* HideKeyboardExtension.swift in Sources */,
+				0C3F45C8264F4652006B4E14 /* BlankView.swift in Sources */,
+				0C84E9DB264F319000F25A1D /* Constant.swift in Sources */,
 				0CCC8406264F1DE70071030A /* ToDoApp.swift in Sources */,
 				0CCC8412264F1DE80071030A /* ToDo.xcdatamodeld in Sources */,
+				0C3F45C6264F40D3006B4E14 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
